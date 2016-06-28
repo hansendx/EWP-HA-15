@@ -3,10 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>EWP HA 15</title>
+ 
+ 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.0.0/css/tooltipster.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="my.css">
+
+    
 </head>
 <body>
 
 <!-- TODO: Erstellen Sie hier die nötigen Inhalte -->
+<p>Besteht bereits ein zentrales Repository klont man mit <span class="gitclone">git clone</span> das zentrale Repository in ein locales Repository auf dem eigenen Rechner. Wenn im localen Repository Dateien geändert werden können diese durch <span class="gitadd">git add</span> zur staging area hinzugefügt werden. Die Änderungen in den Dateien in der staging area können dann wiederum mit <span class="gitcommit">git commit</span> in einem commit festgehalten werden. Die local festgehaltenen commits werden dann mit <span class="gitpush">git push</span> zum zentralen Repository hochgeladen, wo die Änderungen mit den dortigen Dateien verschmolzen werden. (Sofern es möglich ist die Dateien zu vereinigen und keine Widersprüche auftreten) Falls sich in dem zentralen Repository etwas geändert hat, kann man mit <span class="gitpull">git pull</span> die Änderungen ins locale Repository ziehen. Auch hier kann es dazu kommen, dass widersprüche auftreten, die per hand repariert werden müssen</p>
+
+
+
+		<table id="GitTable" class="display" width="100%" cellspacing="0">
+			<thead>
+				<tr>
+					<th>Befehl</th>
+					<th>Funktion</th>
+	    			</tr>
+	    		</thead>	
+		</table>
+
+<a href="https://github.com/hansendx/EWP-HA-15">
+
+<svg aria-hidden="true" height="100" width="100" viewBox="0 0 16 16" ><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+
+</a>
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/3.0.0/js/jquery.tooltipster.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/jquery.dataTables.js"></script>
+<script src="my.js"></script>	
 
 </body>
 </html>

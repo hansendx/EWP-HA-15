@@ -1,0 +1,25 @@
+{
+	"data" : 
+	[
+		{
+			"befehl": "git clone",
+			"funktion": "Clont ein Git-Repository in einen neuen Ordner."
+		},	
+		{
+			"befehl": "git add",
+			"funktion": "Fügt eine Datei zur staging area hinzu."
+		},	
+		{
+			"befehl": "git commit",
+			"funktion": "Hält Änderungen der Dateien in der staging area fest."
+		},	
+		{
+			"befehl": "git push",
+			"funktion": "Lädt festgehaltene Änderungen zum zentralen Repository hoch, wo die Dateien vereinigt werden."
+		},
+		{
+			"befehl": "git pull",
+			"funktion": "Lädt Änderungen vom zentralen Repository herunter und vereinigt sie mit den Lokalen Dateien."
+		}
+	]
+}
