@@ -1,3 +1,7 @@
 span{
 	color: blue;
 }
+
+#gittext{
+	max-width: 40em;
+}
